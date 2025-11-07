@@ -1,0 +1,351 @@
+{
+    "gender": {
+        "Q28": {
+                "strongly agree": "agree",
+                "agree": "agree",
+                "disagree": "disagree",
+                "strongly disagree": "disagree"
+            },
+        "Q29": {
+                "strongly agree": "agree",
+                "agree": "agree",
+                "disagree": "disagree",
+                "strongly disagree": "disagree"
+            },
+        "Q30": {
+                "strongly agree": "agree",
+                "agree": "agree",
+                "disagree": "disagree",
+                "strongly disagree": "disagree"
+            },
+        "Q31": {
+                "strongly agree": "agree",
+                "agree": "agree",
+                "disagree": "disagree",
+                "strongly disagree": "disagree"
+            },
+        "Q32": {
+                "strongly agree": "agree",
+                "agree": "agree",
+                "disagree": "disagree",
+                "strongly disagree": "disagree"
+        },
+        "Q35": {
+                "strongly agree": "agree",
+                "agree": "agree",
+                "disagree": "disagree",
+                "strongly disagree": "disagree"
+        },
+        "Q80": {
+                "A great deal": "positive",
+                "Quite a lot": "positive",
+                "Not very much": "negative",
+                "None at all": "negative"
+        }
+    },
+    "work": {
+        "Q5": {
+        "Very important": "important",
+        "Rather important": "important",
+        "Not very important": "not important",
+        "Not at all important": "not important"
+        },
+        "Q39": {
+        "agree strongly": "agree",
+        "agree": "agree",
+        "neither agree nor disagree": "neutral",
+        "disagree": "disagree",
+        "disagree strongly": "disagree"
+        },
+        "Q40": {
+        "agree strongly": "agree",
+        "agree": "agree",
+        "neither agree nor disagree": "neutral",
+        "disagree": "disagree",
+        "disagree strongly": "disagree"
+        },
+        "Q41": {
+        "agree strongly": "agree",
+        "agree": "agree",
+        "neither agree nor disagree": "neutral",
+        "disagree": "disagree",
+        "disagree strongly": "disagree"
+        },
+        "Q128": {
+        "Agree": "agree",
+        "Hard to say": "neutral",
+        "Disagree": "disagree"
+        },
+        "Q68": {
+        "A great deal": "positive",
+        "Quite a lot": "positive",
+        "Not very much": "negative",
+        "None at all": "negative"
+        },
+        "Q97": {
+        "Active member": "member",
+        "Inactive member": "member",
+        "Don't belong": "not member"
+        },
+        "Q34": {
+        "agree strongly": "agree",
+        "agree": "agree",
+        "neither agree nor disagree": "neutral",
+        "disagree": "disagree",
+        "disagree strongly": "disagree"
+        }
+    },
+    "religion": {
+        "Q64": {
+        "a great deal": "positive",
+        "quite a lot": "positive",
+        "not very much": "negative",
+        "none at all": "negative"
+        },
+        "Q94": {
+        "active member": "member",
+        "inactive member": "member",
+        "don’t belong": "not member"
+        },
+        "Q169":{
+            "strongly agree": "agree",
+            "agree": "agree",
+            "disagree": "disagree",
+            "strongly disagree": "disagree"
+        },
+        "Q170":{
+            "strongly agree": "agree",
+            "agree": "agree",
+            "disagree": "disagree",
+            "strongly disagree": "disagree"
+        }
+    },
+    "government": {
+        "Q235": {
+        "very good": "positive",
+        "fairly good": "positive",
+        "fairly bad": "negative",
+        "very bad": "negative"
+        },
+        "Q236": {
+        "very good": "positive",
+        "fairly good": "positive",
+        "fairly bad": "negative",
+        "very bad": "negative"
+        },
+        "Q237": {
+        "very good": "positive",
+        "fairly good": "positive",
+        "fairly bad": "negative",
+        "very bad": "negative"
+        },
+        "Q238": {
+        "very good": "positive",
+        "fairly good": "positive",
+        "fairly bad": "negative",
+        "very bad": "negative"
+        },
+        "Q70": {
+        "a great deal": "positive",
+        "quite a lot": "positive",
+        "not very much": "negative",
+        "none at all": "negative"
+        },
+        "Q71": {
+        "a great deal": "positive",
+        "quite a lot": "positive",
+        "not very much": "negative",
+        "none at all": "negative"
+        },
+        "Q72": {
+        "a great deal": "positive",
+        "quite a lot": "positive",
+        "not very much": "negative",
+        "none at all": "negative"
+        },
+        "Q73": {
+        "a great deal": "positive",
+        "quite a lot": "positive",
+        "not very much": "negative",
+        "none at all": "negative"
+        },
+        "Q196":{
+            "definitely should have the right": "positive",
+            "probably should have the right": "positive",
+            "probably should not have the right": "negative",
+            "definitely should not have the right": "negative"
+        },
+        "Q197":{
+            "definitely should have the right": "positive",
+            "probably should have the right": "positive",
+            "probably should not have the right": "negative",
+            "definitely should not have the right": "negative"
+        },
+        "Q198":{
+            "definitely should have the right": "positive",
+            "probably should have the right": "positive",
+            "probably should not have the right": "negative",
+            "definitely should not have the right": "negative"
+        }
+    },
+    "social_media": {
+        "Q66": {
+        "a great deal": "positive",
+        "quite a lot": "positive",
+        "not very much": "negative",
+        "none at all": "negative"
+        },
+        "Q67": {
+        "a great deal": "positive",
+        "quite a lot": "positive",
+        "not very much": "negative",
+        "none at all": "negative"
+        },
+        "Q201": {
+        "daily": "frequent",
+        "weekly": "frequent",
+        "monthly": "infrequent",
+        "less than monthly": "infrequent",
+        "never": "never"
+        },
+        "Q202": {
+        "daily": "frequent",
+        "weekly": "frequent",
+        "monthly": "infrequent",
+        "less than monthly": "infrequent",
+        "never": "never"
+        },
+        "Q203": {
+        "daily": "frequent",
+        "weekly": "frequent",
+        "monthly": "infrequent",
+        "less than monthly": "infrequent",
+        "never": "never"
+        },
+        "Q205": {
+        "daily": "frequent",
+        "weekly": "frequent",
+        "monthly": "infrequent",
+        "less than monthly": "infrequent",
+        "never": "never"
+        },
+        "Q206": {
+        "daily": "frequent",
+        "weekly": "frequent",
+        "monthly": "infrequent",
+        "less than monthly": "infrequent",
+        "never": "never"
+        },
+        "Q207": {
+        "daily": "frequent",
+        "weekly": "frequent",
+        "monthly": "infrequent",
+        "less than monthly": "infrequent",
+        "never": "never"
+        }
+    },
+    "social_values": {
+        "Q1": {
+        "very important": "important",
+        "rather important": "important",
+        "not very important": "not important",
+        "not at all important": "not important"
+        },
+        "Q2": {
+        "very important": "important",
+        "rather important": "important",
+        "not very important": "not important",
+        "not at all important": "not important"
+        },
+        "Q3": {
+        "very important": "important",
+        "rather important": "important",
+        "not very important": "not important",
+        "not at all important": "not important"
+        },
+        "Q4": {
+        "very important": "important",
+        "rather important": "important",
+        "not very important": "not important",
+        "not at all important": "not important"
+        },
+        "Q6": {
+        "very important": "important",
+        "rather important": "important",
+        "not very important": "not important",
+        "not at all important": "not important"
+        },
+        "Q18": {
+        "mentioned": "negative",
+        "not mentioned": "positive"
+        },
+        "Q19": {
+        "mentioned": "negative",
+        "not mentioned": "positive"
+        },
+        "Q20": {
+        "Mentioned": "negative",
+        "Not mentioned": "positive"
+        },
+        "Q21": {
+        "Mentioned": "negative",
+        "Not mentioned": "positive"
+        },
+        "Q28": {
+        "strongly agree": "agree",
+        "agree": "agree",
+        "disagree": "disagree",
+        "strongly disagree": "disagree"
+        },
+        "Q30": {
+        "strongly agree": "agree",
+        "agree": "agree",
+        "disagree": "disagree",
+        "strongly disagree": "disagree"
+        },
+        "Q31": {
+        "strongly agree": "agree",
+        "agree": "agree",
+        "disagree": "disagree",
+        "strongly disagree": "disagree"
+        },
+        "Q32": {
+        "strongly agree": "agree",
+        "agree": "agree",
+        "disagree": "disagree",
+        "strongly disagree": "disagree"
+        }
+    },
+    "democracy": {
+        "Q76": {
+        "A great deal": "positive",
+        "Quite a lot": "positive",
+        "Not very much": "negative",
+        "None at all": "negative"
+        },
+        "Q241": {
+        "1": "not essential",
+        "2": "not essential",
+        "3": "not essential",
+        "4": "neutral",
+        "5": "neutral",
+        "6": "neutral",
+        "7": "essential",
+        "8": "essential",
+        "9": "essential",
+        "10": "essential"
+        },
+        "Q243": {
+        "1": "not essential",
+        "2": "not essential",
+        "3": "not essential",
+        "4": "neutral",
+        "5": "neutral",
+        "6": "neutral",
+        "7": "essential",
+        "8": "essential",
+        "9": "essential",
+        "10": "essential"
+        }
+    }
+}

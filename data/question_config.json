@@ -1,0 +1,865 @@
+{
+    "gender": {
+        "train":{
+            "Q28": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "When a mother works for pay, the children suffer.",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q30": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "A university education is more important for a boy than for a girl",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q31": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "On the whole, men make better business executives than women do",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q32": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "Being a housewife is just as fulfilling as working for pay",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q33": {
+                "instruction": "How would you feel about the following statements? Do you agree or disagree with them?",
+                "question": "When jobs are scarce, men should have more right to a job than women",
+                "labels": [
+                    "agree strongly",
+                    "agree",
+                    "neither agree nor disagree",
+                    "disagree",
+                    "disagree strongly"
+                ]
+            },
+            "Q36": {
+                "instruction": "How would you feel about the following statements? Do you agree or disagree with them?",
+                "question": "Homosexual couples are as good parents as other couples",
+                "labels": [
+                    "agree strongly",
+                    "agree",
+                    "neither agree nor disagree",
+                    "disagree",
+                    "disagree strongly"
+                ]
+            },
+            "Q104": {
+                "instruction": "Now I am going to read off a list of voluntary organizations. For each organization, could you tell me whether you are an active member, an inactive member or not a member of that type of organization?",
+                "question": "Women’s group",
+                "labels": [
+                    "Active member",
+                    "Inactive member",
+                    "Don't being"
+                ]
+            },
+            "Q182": {
+                "instruction": "Please tell me for each of the following actions whether you think it can always be justified, never be justified, or something in between. Never justifiable is 1 and Always justifiable is 10, give a number between 1 and 10.",
+                "question": "Homosexuality",
+                "labels": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            }
+        },
+        "test":{
+            "Q28": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "When a mother works for pay, the children suffer.",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q29": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "On the whole, men make better political leaders than women do.",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q30": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "A university education is more important for a boy than for a girl",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q31": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "On the whole, men make better business executives than women do",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q32": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "Being a housewife is just as fulfilling as working for pay",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q35": {
+                "instruction": "How would you feel about the following statements? Do you agree or disagree with them?",
+                "question": "If a woman earns more money than her husband, it's almost certain to cause problems.",
+                "labels": [
+                    "agree strongly",
+                    "agree",
+                    "neither agree nor disagree",
+                    "disagree",
+                    "disagree strongly"
+                ]
+            },
+            "Q80": {
+                "instruction": "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?",
+                "question": "Women's organizations.",
+                "labels": [
+                    "A great deal",
+                    "Quite a lot",
+                    "Not very much", 
+                    "None at all"
+                ]
+            }
+        }
+    },
+    "democracy":{
+        "train":{
+            "Q242": {
+                "instruction": "Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means “not at all an essential characteristic of democracy” and 10 means it definitely is “an essential characteristic of democracy”",
+                "question": "Religious authorities ultimately interpret the laws.",
+                "labels": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            },
+            "Q244": {
+                "instruction": "Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means “not at all an essential characteristic of democracy” and 10 means it definitely is “an essential characteristic of democracy”",
+                "question": "People receive state aid for unemployment.",
+                "labels": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            },
+            "Q245": {
+                "instruction": "Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means “not at all an essential characteristic of democracy” and 10 means it definitely is “an essential characteristic of democracy”",
+                "question": "The army takes over when government is incompetent.",
+                "labels": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            },
+            "Q246": {
+                "instruction": "Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means “not at all an essential characteristic of democracy” and 10 means it definitely is “an essential characteristic of democracy”",
+                "question": "Civil rights protect people from state oppression.",
+                "labels": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            },
+            "Q247": {
+                "instruction": "Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means “not at all an essential characteristic of democracy” and 10 means it definitely is “an essential characteristic of democracy”",
+                "question": "The state makes people's incomes equal.",
+                "labels": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            },
+            "Q248": {
+                "instruction": "Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means “not at all an essential characteristic of democracy” and 10 means it definitely is “an essential characteristic of democracy”",
+                "question": "People obey their rulers.",
+                "labels": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            },
+            "Q249": {
+                "instruction": "Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means “not at all an essential characteristic of democracy” and 10 means it definitely is “an essential characteristic of democracy”",
+                "question": "Women have the same rights as men.",
+                "labels": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            }
+        },
+        "test":{
+            "Q241": {
+                "instruction": "Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means “not at all an essential characteristic of democracy” and 10 means it definitely is “an essential characteristic of democracy”",
+                "question": "Governments tax the rich and subsidize the poor.",
+                "labels": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            },
+            "Q243": {
+                "instruction": "Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means “not at all an essential characteristic of democracy” and 10 means it definitely is “an essential characteristic of democracy”",
+                "question": "People choose their leaders in free elections.",
+                "labels": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            },
+            "Q76": {
+                "instruction": "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?",
+                "question": "Elections.",
+                "labels": [
+                    "A great deal",
+                    "Quite a lot", 
+                    "Not very much", 
+                    "None at all"
+                ]
+            }
+        }
+    },
+    "Q5": {
+        "instruction": "For each of the following, indicate how important it is in your life. Would you say it is",
+        "question": "Work",
+        "labels": [
+            "Very important",
+            "Rather important",
+            "Not very important",
+            "Not at all important"
+        ]
+    },
+    "Q39": {
+        "instruction": "How would you feel about the following statements? Do you agree or disagree with them?",
+        "question": "People who don't work turn lazy",
+        "labels": [
+            "agree strongly",
+            "agree",
+            "neither agree nor disagree",
+            "disagree",
+            "disagree strongly"
+        ]
+    },
+    "Q40": {
+        "instruction": "How would you feel about the following statements? Do you agree or disagree with them?",
+        "question": "Work is a duty towards society",
+        "labels": [
+            "agree strongly",
+            "agree",
+            "neither agree nor disagree",
+            "disagree",
+            "disagree strongly"
+        ]
+    },
+    "Q41": {
+        "instruction": "How would you feel about the following statements? Do you agree or disagree with them?",
+        "question": "Work should always come first, even if it means less spare time",
+        "labels": [
+            "agree strongly",
+            "agree",
+            "neither agree nor disagree",
+            "disagree",
+            "disagree strongly"
+        ]
+    },
+    "Q128": {
+        "instruction": "From your point of view, what have been the effects of immigration on the development of [this country]? For each of the following statements about the effects of immigration, please, tell me whether you agree or disagree with it:",
+        "question": "Increases unemployment",
+        "labels": [
+            "Agree",
+            "Hard to say",
+            "Disagree"
+        ]
+    },
+    "Q68": {
+        "instruction": "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?",
+        "question": "Labor unions",
+        "labels": [
+            "A great deal",
+            "Quite a lot",
+            "Not very much",
+            "None at all"
+        ]
+    },
+    "Q97": {
+        "instruction": "Now I am going to read off a list of voluntary organizations. For each organization, could you tell me whether you are an active member, an inactive member or not a member of that type of organization?",
+        "question": "Labor Union",
+        "labels": [
+            "Active member",
+            "Inactive member",
+            "Don't belong"
+        ]
+    },
+    "Q34": {
+        "instruction": "How would you feel about the following statements? Do you agree or disagree with them?",
+        "question": "When jobs are scarce, employers should give priority to people of this country over immigrants",
+        "labels": [
+            "agree strongly",
+            "agree",
+            "neither agree nor disagree",
+            "disagree",
+            "disagree strongly"
+        ]
+    },
+    "religion":{
+        "test":{
+            "Q64":{
+                "instruction": "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?",
+                "question": "The [churches]",
+                "labels": [
+                    "a great deal",
+                    "quite a lot",
+                    "not very much", 
+                    "none at all"
+                ]
+            },
+            "Q94":{
+                "instruction": "Now I am going to read off a list of voluntary organizations. For each organization, could you tell me whether you are an active member, an inactive member or not a member of that type of organization?",
+                "question": "Church or religious organization",
+                "labels": [
+                    "active member", 
+                    "inactive member", 
+                    "don’t belong"
+                ]
+            },
+            "Q169":{
+                "instruction": "Please tell us if you strongly agree, agree, disagree, or strongly disagree with the following statements:",
+                "question": "Whenever science and religion conflict, religion is always right",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q170":{
+                "instruction": "Please tell us if you strongly agree, agree, disagree, or strongly disagree with the following statements:",
+                "question": "The only acceptable religion is my religion",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            }
+        }
+    },
+    "government":{
+        "test":{
+            "Q235":{
+                "instruction": "I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?",
+                "question": "Having a strong leader who does not have to bother with parliament and elections",
+                "labels": [
+                    "very good",
+                    "fairly good",
+                    "fairly bad",
+                    "very bad"
+                ]
+            },
+            "Q236":{
+                "instruction": "I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?",
+                "question": "Having experts, not government, make decisions according to what they think is best for the country",
+                "labels": [
+                    "very good",
+                    "fairly good",
+                    "fairly bad",
+                    "very bad"
+                ]
+            },
+            "Q237":{
+                "instruction": "I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?",
+                "question": "Having the army rule",
+                "labels": [
+                    "very good",
+                    "fairly good",
+                    "fairly bad",
+                    "very bad"
+                ]
+            },
+            "Q238":{
+                "instruction": "I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?",
+                "question": "Having a democratic political system",
+                "labels": [
+                    "very good",
+                    "fairly good",
+                    "fairly bad",
+                    "very bad"
+                ]
+            },
+            "Q70":{
+                "instruction": "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?",
+                "question": "The courts",
+                "labels": [
+                    "a great deal",
+                    "quite a lot",
+                    "not very much", 
+                    "none at all"
+                ]
+            },
+            "Q71":{
+                "instruction": "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?",
+                "question": "The government",
+                "labels": [
+                    "a great deal",
+                    "quite a lot",
+                    "not very much", 
+                    "none at all"
+                ]
+            },
+            "Q72":{
+                "instruction": "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?",
+                "question": "Political parties",
+                "labels": [
+                    "a great deal",
+                    "quite a lot",
+                    "not very much", 
+                    "none at all"
+                ]
+            },
+            "Q73":{
+                "instruction": "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?",
+                "question": "Parliament",
+                "labels": [
+                    "a great deal",
+                    "quite a lot",
+                    "not very much", 
+                    "none at all"
+                ]
+            },
+            "Q196":{
+                "instruction": "Do you think that the your country’s government should or should not have the right to do the following:",
+                "question": "Keep people under video surveillance in public areas",
+                "labels": [
+                    "definitely should have the right",
+                    "probably should have the right",
+                    "probably should not have the right",
+                    "definitely should not have the right"
+                ]
+            },
+            "Q197":{
+                "instruction": "Do you think that the your country’s government should or should not have the right to do the following:",
+                "question": "Monitor all e-mails and any other information exchanged on the Internet",
+                "labels": [
+                    "definitely should have the right",
+                    "probably should have the right",
+                    "probably should not have the right",
+                    "definitely should not have the right"
+                ]
+            },
+            "Q198":{
+                "instruction": "Do you think that the your country’s government should or should not have the right to do the following:",
+                "question": "Monitor all e-mails and any other information exchanged on the Internet",
+                "labels": [
+                    "definitely should have the right",
+                    "probably should have the right",
+                    "probably should not have the right",
+                    "definitely should not have the right"
+                ]
+            }
+        }
+    },
+    "social_media":{
+        "test":{
+            "Q66": {
+                "instruction": "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?",
+                "question": "The press",
+                "labels": [
+                    "a great deal",
+                    "quite a lot",
+                    "not very much",
+                    "none at all"
+                ]
+            },
+            "Q67": {
+                "instruction": "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?",
+                "question": "Television",
+                "labels": [
+                    "a great deal",
+                    "quite a lot",
+                    "not very much",
+                    "none at all"
+                ]
+            },
+            "Q201": {
+                "instruction": "People learn what is going on in this country and the world from various sources. For each of the following sources, please indicate how often you use it to obtain information.",
+                "question": "Daily newspaper",
+                "labels": [
+                    "daily",
+                    "weekly",
+                    "monthly",
+                    "less than monthly",
+                    "never"
+                ]
+            },
+            "Q202": {
+                "instruction": "People learn what is going on in this country and the world from various sources. For each of the following sources, please indicate how often you use it to obtain information.",
+                "question": "TV news",
+                "labels": [
+                    "daily",
+                    "weekly",
+                    "monthly",
+                    "less than monthly",
+                    "never"
+                ]
+            },
+            "Q203": {
+                "instruction": "People learn what is going on in this country and the world from various sources. For each of the following sources, please indicate how often you use it to obtain information.",
+                "question": "Radio news",
+                "labels": [
+                    "daily",
+                    "weekly",
+                    "monthly",
+                    "less than monthly",
+                    "never"
+                ]
+            },
+            "Q205": {
+                "instruction": "People learn what is going on in this country and the world from various sources. For each of the following sources, please indicate how often you use it to obtain information.",
+                "question": "Email",
+                "labels": [
+                    "daily",
+                    "weekly",
+                    "monthly",
+                    "less than monthly",
+                    "never"
+                ]
+            },
+            "Q206": {
+                "instruction": "People learn what is going on in this country and the world from various sources. For each of the following sources, please indicate how often you use it to obtain information.",
+                "question": "Internet",
+                "labels": [
+                    "daily",
+                    "weekly",
+                    "monthly",
+                    "less than monthly",
+                    "never"
+                ]
+            },
+            "Q207": {
+                "instruction": "People learn what is going on in this country and the world from various sources. For each of the following sources, please indicate how often you use it to obtain information.",
+                "question": "Social media (Facebook, Twitter, etc.)",
+                "labels": [
+                    "daily",
+                    "weekly",
+                    "monthly",
+                    "less than monthly",
+                    "never"
+                ]
+            }
+        }        
+    },
+    "work_and_job":{
+        "test":{
+            "Q3": {
+              "instruction": "For each of the following, indicate how important it is in your life.",
+              "question": "Leisure time",
+              "labels": [
+                "very important",
+                "rather important",
+                "not very important",
+                "not at all important"
+              ]
+            },
+            "Q5": {
+              "instruction": "For each of the following, indicate how important it is in your life.",
+              "question": "Work",
+              "labels": [
+                "very important",
+                "rather important",
+                "not very important",
+                "not at all important"
+              ]
+            },
+            "Q39": {
+              "instruction": "How would you feel about the following statements? Do you agree or disagree with them?",
+              "question": "People who don’t work turn lazy",
+              "labels": [
+                "agree strongly",
+                "agree",
+                "neither agree nor disagree",
+                "disagree",
+                "disagree strongly"
+              ]
+            },
+            "Q40": {
+              "instruction": "How would you feel about the following statements? Do you agree or disagree with them?",
+              "question": "Work is a duty towards society",
+              "labels": [
+                "agree strongly",
+                "agree",
+                "neither agree nor disagree",
+                "disagree",
+                "disagree strongly"
+              ]
+            },
+            "Q68": {
+              "instruction": "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them?",
+              "question": "Labor unions",
+              "labels": [
+                "a great deal",
+                "quite a lot",
+                "not very much",
+                "none at all"
+              ]
+            },
+            "Q122": {
+              "instruction": "From your point of view, what have been the effects of immigration on the development of this country? Please, tell me whether you agree or disagree with the following statement:",
+              "question": "Immigration fills important job vacancies",
+              "labels": [
+                "agree",
+                "hard to say",
+                "disagree"
+              ]
+            },
+            "Q128": {
+              "instruction": "From your point of view, what have been the effects of immigration on the development of this country? Please, tell me whether you agree or disagree with the following statement:",
+              "question": "Immigration increases unemployment",
+              "labels": [
+                "agree",
+                "hard to say",
+                "disagree"
+              ]
+            }
+        }          
+    },
+    "social_values_attitudes_and_sterotypes":{
+        "test":{
+            "Q3": {
+              "instruction": "For each of the following, indicate how important it is in your life.",
+              "question": "Leisure time",
+              "labels": [
+                "very important",
+                "rather important",
+                "not very important",
+                "not at all important"
+              ]
+            },
+            "Q1": {
+              "instruction": "For each of the following, indicate how important it is in your life.",
+              "question": "Family",
+              "labels": [
+                "very important",
+                "rather important",
+                "not very important",
+                "not at all important"
+              ]
+            },
+            "Q2": {
+              "instruction": "For each of the following, indicate how important it is in your life.",
+              "question": "Friends",
+              "labels": [
+                "very important",
+                "rather important",
+                "not very important",
+                "not at all important"
+              ]
+            },
+            "Q4": {
+              "instruction": "For each of the following, indicate how important it is in your life.",
+              "question": "Politics",
+              "labels": [
+                "very important",
+                "rather important",
+                "not very important",
+                "not at all important"
+              ]
+            },
+            "Q5": {
+              "instruction": "For each of the following, indicate how important it is in your life.",
+              "question": "Work",
+              "labels": [
+                "very important",
+                "rather important",
+                "not very important",
+                "not at all important"
+              ]
+            },
+            "Q6": {
+              "instruction": "For each of the following, indicate how important it is in your life.",
+              "question": "Religion",
+              "labels": [
+                "very important",
+                "rather important",
+                "not very important",
+                "not at all important"
+              ]
+            },
+            "Q18":{
+                "instruction": "On this list are various groups of people. Could you please mention any that you would not like to have as neighbors?",
+              "question": "Drug addicts",
+              "labels": [
+                "mentioned",
+                "not mentioned"
+              ]
+            },
+            "Q19":{
+                "instruction": "On this list are various groups of people. Could you please mention any that you would not like to have as neighbors?",
+              "question": "People of a different race",
+              "labels": [
+                "mentioned",
+                "not mentioned"
+              ]
+            },
+            "Q20":{
+                "instruction": "On this list are various groups of people. Could you please mention any that you would not like to have as neighbors?",
+              "question": "People who have AIDS",
+              "labels": [
+                "Mentioned",
+                "Not mentioned"
+              ]
+            },
+            "Q21":{
+                "instruction": "On this list are various groups of people. Could you please mention any that you would not like to have as neighbors?",
+              "question": "Immigrants/foreign workers",
+              "labels": [
+                "Mentioned",
+                "Not mentioned"
+              ]
+            },
+            "Q28": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "When a mother works for pay, the children suffer.",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q30": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "A university education is more important for a boy than for a girl",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q31": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "On the whole, men make better business executives than women do",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            },
+            "Q32": {
+                "instruction": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+                "question": "Being a housewife is just as fulfilling as working for pay",
+                "labels": [
+                    "strongly agree",
+                    "agree",
+                    "disagree",
+                    "strongly disagree"
+                ]
+            }
+        }
+    }
+}

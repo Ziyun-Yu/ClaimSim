@@ -1,0 +1,10 @@
+{
+    "temperature": 0.7,
+    "n": 1,
+    "top_p": 1,
+    "max_tokens": 4096,
+    "presence_penalty": 0,
+    "frequency_penalty": 0,
+    "logit_bias": {},
+    "timeout": 60
+}

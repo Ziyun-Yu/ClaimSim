@@ -79,7 +79,7 @@ python ClaimSim.py \
 
 **Example:**
 ```bash
-python ClaimSim.py --domain gender --questions Q1 Q2 Q3
+python ClaimSim.py --domain gender --questions Q28 Q29 Q30
 ```
 
 ### Chain-of-Thought (COT) Prompting
@@ -107,7 +107,7 @@ python cot.py \
 
 **Example:**
 ```bash
-python cot.py --domain religion --questions Q1 Q2 --max-workers 4
+python cot.py --domain religion --questions Q64 Q94 Q169 --max-workers 4
 ```
 
 ### Direct Prompting
@@ -137,7 +137,7 @@ python direct_prompting.py \
 
 **Example:**
 ```bash
-python direct_prompting.py --domain income --questions Q1 Q2 Q3 --max-workers 8
+python direct_prompting.py --domain government --questions Q235 Q236 Q237 --max-workers 8
 ```
 
 ## Configuration

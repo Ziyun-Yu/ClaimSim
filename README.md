@@ -28,15 +28,6 @@ ClaimSim/
 └── README.md               # This file
 ```
 
-## Installation
-
-### Prerequisites
-
-- Python 3.8+
-- PyTorch
-- OpenAI API key (for GPT models)
-- Access to Qwen/Llama models (if using open-source LLMs)
-
 ### Setup
 
 1. Clone this repository:

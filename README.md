@@ -24,7 +24,6 @@ ClaimSim/
 │   └── llm.py              # LLM interface utilities (GPT, Qwen, Llama)
 ├── prompts/                 # Prompt templates (Jinja2)
 ├── config.json             # LLM hyperparameters for evaluation
-generation
 └── README.md               # This file
 ```
 
